@@ -33,6 +33,11 @@ source env/bin/activate
 
 ### Package Installation
 
+Install pyaudio
+```
+
+```
+
 Then, to install dependencies simply run
 ```
 pip install -r requirements.txt
@@ -42,7 +47,6 @@ in an environment of your choosing.
 Whisper also requires the command-line tool [`ffmpeg`](https://ffmpeg.org/) to be installed on your system, which is available from most package managers:
 
 ```
-# on MacOS using Homebrew (https://brew.sh/)
 brew install ffmpeg
 ```
 
@@ -51,6 +55,8 @@ For more information on Whisper please see https://github.com/openai/whisper
 The code in this repository is public domain.
 
 ## Usage
+
+First, make sure you're preferred microphone is set as the default in Mac "Sound Input".
 
 After setting up the environment and packages, you can start the app with
 ```
